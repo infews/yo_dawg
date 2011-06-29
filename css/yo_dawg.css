@@ -1,0 +1,50 @@
+/* Custom CSS for your KeyDown presentation here */
+
+@font-face {
+	font-family: "Franchise Bold";
+	src: url(../fonts/Franchise-Bold/Franchise-Bold.ttf);	
+}        
+
+h1 {
+	font-family: "Franchise Bold";
+	font-size: 4em;
+}
+
+.light h1 {
+  color: white;	
+}
+
+.right h1 {
+	display: block;
+	float: right;
+}
+
+.bottom h1 {
+	position: fixed;
+	bottom: 32px;
+}
+
+.wacky h1 {
+	font-family: "Permanent Marker";
+}             
+
+.wacky h2 {
+	font-family: "Ruslan Display";
+	color: darkred;
+	font-size: 48pt;
+}             
+
+.wacky h3 {
+	color: orange;
+	font-style: italic;
+	-webkit-transform: rotate(-68deg); 
+	-moz-transform: rotate(-68deg);
+}             
+
+.wacky h1:last-child {
+	color: purple;
+	font-family: "Lobster";
+	display: block;
+	float: right;
+	padding-right: 24px;
+}

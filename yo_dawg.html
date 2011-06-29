@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!--
+  Original Project, HTML5 Rocks 'Slides Template' Copyright 2010 Google Inc.
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+     http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ 
+  Original slides: Marcin Wichary (mwichary@google.com)
+  Modifications: Ernest Delgado (ernestd@google.com)
+                 Alex Russell (slightlyoff@chromium.org)
+                 Brad Neuberg
+
+  Keydown generates an HTML5 Rocks-style presentation from a Markdown file, adding
+  the ability to full screen backgrounds, CSS overrides, and additional JavaScript.
+
+  Keydown (http://infews.github.com/keydown), Copyright 2010 Infews LLC
+-->
+<html manifest="cache.manifest">
+<head>
+  <!--[if gte IE 9]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"/>
+  <![endif]-->
+
+  <meta charset="utf-8"/>
+  <title>yo_dawg</title>
+  <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Permanent+Marker|Lobster|Ruslan+Display" rel="stylesheet" type="text/css"/>
+
+  <!--
+    Original HTML5 Rocks CSS extracted for readability
+  -->
+  <link href="css/rocks.css" rel="stylesheet" type="text/css"/>
+
+  <!--
+    Keydown provided CSS & your custom CSS
+  -->
+  
+    <link href="css/keydown.css" rel="stylesheet" type="text/css"/>
+  
+    <link href="css/syntax_highlighting.css" rel="stylesheet" type="text/css"/>
+  
+    <link href="css/yo_dawg.css" rel="stylesheet" type="text/css"/>
+  
+
+</head>
+<body>
+<div class="presentation">
+  <div id="presentation-counter"></div>
+  <div class="slides">
+    <!--
+      First slide has Title, Instructions & options. Remove (or display:none) this slide if you like
+    -->
+    <div class="slide">
+      <section class="middle">
+        <h1>yo_dawg</h1>
+
+        <p>
+          Press <span class="key"><b>&rarr;</b></span>, scroll, or swipe to advance
+        </p>
+
+        <h3>
+          Options
+        </h3>
+        <ul>
+          <li>
+            <input type="checkbox" id="toggle-size"/>
+            <label for="toggle-size">
+              <span>Grow</span>
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="toggle-transitions" checked/>
+            <label for="toggle-transitions">
+              <span>Transitions</span>
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="toggle-gradients" checked/>
+            <label for="toggle-gradients">
+              <span>Gradients</span>
+            </label>
+          </li>
+          <li>
+            <input type="checkbox" id="toggle-counter" checked/>
+            <label for="toggle-counter">
+              <span>Slide numbers</span>
+            </label>
+          </li>
+        </ul>
+        <p>
+          Made with <a href="http://infews.github.com/keydown"><b>Keydown</b></a>
+        </p>
+        <p>
+          <a href="http://www.w3.org/html/logo/">
+            <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-graphics-semantics.png" width="197" height="64" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics">
+          </a>
+        </p>
+      </section>
+    </div>
+    
+      <div class="slide full-background xzibit">
+  <section class="light bottom">
+    <h1>I Herd U Like Prezentn</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    <h1>Keydown</h1>
+
+<h2>Yet Another HTML Presentation Gem</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide full-background steve">
+  <section class="light right">
+    <h1>I'm Not This Guy</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide full-background constructocat">
+  <section>
+    <h1>I'm This Guy</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Close the Bullet Factories</h1>
+
+<h2>Keynote, PowerPoint, OpenOffice, Google Docs</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Writing === Markdown</h1>
+
+<h2>...in my head</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>"Presentation?"</h1>
+
+<h2>Isn't that CSS?</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Closed Files &lt; PDF &lt; HTML</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>What about S5?</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>What about Showoff?</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>What about Slidedown?</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>What <em>about</em> Slidedown&trade;?</h1>
+
+<h2>&copy; Nakajimaware</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Yes, It's a Rewrite</h1>
+
+<h2>This Old Ruby Gem&trade;</h2>
+
+<h3>&copy; MyOwnSummerOfCode LLC</h3>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>HTML5 Rocks! Template</h1>
+
+<h2>CSS, JS extracted for modularity &amp; Testability</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    <h1>Code</h1>
+
+<h2>with highlighting (duh)</h2>
+
+<div class="CodeRay">
+  <div class="code"><pre><span class="r">class</span> <span class="cl">Slide</span>
+  include <span class="co">Coderay</span>
+  
+  <span class="r">def</span> <span class="fu">i_can_haz_hilites</span>
+    <span class="iv">@awesome</span> ||= Coderay(<span class="pc">self</span>.content).boom
+  <span class="r">end</span>
+<span class="r">end</span></pre></div>
+</div>
+
+
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide full-background wave">
+  <section class="light">
+    <h1>Full-bleed backgrounds</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide full-background wave">
+  <section class="light">
+    <h1>Flickr Attributions</h1>
+
+  </section>
+  <div class="attribution flickr">
+    <a href="">
+      isolino
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="wacky middle">
+    <h1>Custom CSS</h1>
+
+<h3>EVEN</h3>
+
+<h2>MAWR</h2>
+
+<h1>Awesome</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section>
+    <h1>How Can I Do This At Home?</h1>
+
+<h2><code>$ gem install keydown</code></h2>
+
+<ol>
+<li><code>keydown generate my_preso</code></li>
+<li>Write your presentation in Markdown</li>
+<li>Customize your look/feel with CSS</li>
+<li><code>keydown slides my_preso.md</code></li>
+<li><code>open my_preso.html</code></li>
+</ol>
+
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide">
+  <section class="middle">
+    <h1>Sharing</h1>
+
+<h2>Push to a Github repo</h2>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+      <div class="slide full-background strongmad">
+  <section class="light bottom">
+    <h1>IMMA WEBSITE!</h1>
+
+  </section>
+  <div class="attribution hidden">
+    <a href="">
+      
+    </a>
+  </div>
+</div>
+
+    
+  </div>
+</div>
+
+<!--
+  Original HTML5 Rocks JavaScript extracted for readability
+-->
+<script src="js/rocks.js" type="text/javascript"></script>
+
+<!--[if lt IE 9]>
+<script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+<script>CFInstall.check({ mode: "overlay" });</script>
+<![endif]-->
+
+<!--
+  Keydown puts your custom JS here
+-->
+
+  <script src="js/yo_dawg.js" type="text/javascript"></script>
+
+
+</body>
+</html>
